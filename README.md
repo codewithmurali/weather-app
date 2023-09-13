@@ -1,2 +1,3 @@
 # weather-app
-Build a weather app using JavaScript
+Build a weather app using React
+
