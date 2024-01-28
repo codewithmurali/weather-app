@@ -56,6 +56,7 @@ const Weatherapp = () => {
       const weatherIcon = getWeatherIcon(data.weather[0].main);
       setImage(weatherIcon);
       setWeatherData(data);
+
       setTimeout(() => {
         setIsLoading(false);
       }, 3000);
